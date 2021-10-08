@@ -36,3 +36,84 @@
     transform: rotate(360deg);
   }
 }
+
+#form{
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: flex-start;
+  background-color: skyblue;
+  height: 450px;
+  width: 300px;
+  font-family: 'Yaldevi', sans-serif;
+}
+
+.blankinput {
+  width: 150px;
+}
+
+#buttons {
+  padding: 10px;
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-between;
+  background-color: skyblue;
+}
+
+#button {
+  background-color: slategray;
+  border: none;
+  color: white;
+  padding: 13px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: teal;
+}
+
+select {
+  width: 160px;
+}
+
+#screenshot{
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1000px;
+  font-family: 'Dancing Script', cursive;
+  background-color: #B8956D ;
+  background-image: url(https://image.freepik.com/free-photo/grunge-vintage-old-paper-background_1373-431.jpg);
+  background-size: 1100px;
+  font-size: 35px;
+  border-style: dashed;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 10px;
+  
+}
+
+#imagen {
+  width: 500px;
+  height: 400px;
+}
+
+p {
+  margin: 1px;
+}
+
+#titleletter{
+  font-family: 'Birthstone', cursive;
+  font-weight: bold;
+  margin: 15px;
+}
